@@ -16,7 +16,11 @@ Ans> "LINUX have Command History" - We can get previous commands using UP_ARROW 
 5> Can it be possible to change rights of a file/directory into 747? Give reason for your answer.
 Ans> Yes, becuase permissions are exclusively assigned and changed in permissions of owner, group and other have no effect on each other.
 
+6> What is the minimum number of partitions you need to install Linux?
+Ans> 2 partitions are needed, one is swap partition and other is normal ubuntu installation drive.
 
+7> If you want to see all files and directories of a directory without making that directory as your working directory, which command you will use?
+Ans> ls path_name
 
 
 
