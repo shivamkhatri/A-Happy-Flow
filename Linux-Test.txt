@@ -1,0 +1,11 @@
+## QUESTIONS
+
+1> what is cd command? If one types on the console cd ~user_name, what will happen?
+
+2> what is “pwd”?
+
+3> Which command is used to change rights of a directory as well as it’s sub directories and files?
+
+4> Explain it,  “LINUX have Command History”.
+
+5> Can it be possible to change rights of a file/directory into 747? Give reason for your answer.
