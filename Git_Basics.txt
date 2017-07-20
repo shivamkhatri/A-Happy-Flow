@@ -1,3 +1,19 @@
+Index
+1 . Topic 1
+	Installation of git
+
+2 . Topic 3
+	Rebasing
+
+3 . Topic 4:
+	History of git 
+
+4 . Topic 2:
+	Adding/Deleting a branch
+
+5 . Topic 5:
+	Tagging
+
 Topic 1:
 Installation of git:
 
