@@ -42,6 +42,4 @@ git rebase main_branch
 git checkout main_branch
 git merge sub_branch
 
-Topic 4:
-
-Topic 4 removed.
+Modified.
