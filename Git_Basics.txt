@@ -54,6 +54,7 @@ To delete the branch follow the following steps:
 2.) Delete the branch by executing the following command:
     git branch -d branch_name
 
+Topic 3 Modified:
 
 Topic 4:
 History of git
