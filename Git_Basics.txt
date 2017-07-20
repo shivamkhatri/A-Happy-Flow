@@ -5,21 +5,6 @@ git version control system can be installed through the following command on Ubu
 
 sudo apt-get install git
 
-Topic 2:
-Adding/Deleting a branch 
-
-To add a branch, execute the following command:
-
-git branch branch_name
-
-To delete the branch follow the following steps:
-
-1.) Move to any other branch preferably to the master branch using the follwoing command:
-    git checkout master
-    
-2.) Delete the branch by executing the following command:
-    git branch -d branch_name
-
 Topic 3:
 Rebasing
 
@@ -37,6 +22,22 @@ git rebase main_branch
 
 git checkout main_branch
 git merge sub_branch
+
+Topic 2:
+Adding/Deleting a branch 
+
+To add a branch, execute the following command:
+
+git branch branch_name
+
+To delete the branch follow the following steps:
+
+1.) Move to any other branch preferably to the master branch using the follwoing command:
+    git checkout master
+    
+2.) Delete the branch by executing the following command:
+    git branch -d branch_name
+
 
 Topic 4:
 History of git
