@@ -1,5 +1,4 @@
 Topic 1:
-
 Installation of git:
 
 git version control system can be installed through the following command on Ubuntu:
@@ -7,7 +6,6 @@ git version control system can be installed through the following command on Ubu
 sudo apt-get install git
 
 Topic 2:
-
 Adding/Deleting a branch 
 
 To add a branch, execute the following command:
@@ -23,7 +21,6 @@ To delete the branch follow the following steps:
     git branch -d branch_name
 
 Topic 3:
-
 Rebasing
 
 Rebasing is the concept parallel yet slightly different to merging in git.
@@ -35,7 +32,6 @@ saving those diffs to temporary files, resetting the current branch to the same 
 and finally applying each change in turn.
 
 To do rebasing apply the following steps:
-
 git checkout sub_branch
 git rebase main_branch
 
@@ -43,5 +39,8 @@ git checkout main_branch
 git merge sub_branch
 
 Topic 4:
-
-Topic 4 removed.
+History of git
+In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down,
+and the tool’s free-of-charge status was revoked.
+This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned
+while using BitKeeper.
