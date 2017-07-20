@@ -1,0 +1,23 @@
+Topic 1:
+
+Installation of git:
+
+git version control system can be installed through the following command on Ubuntu:
+
+sudo apt-get install git
+
+Topic 2:
+
+Adding/Deleting a branch 
+
+To add a branch, execute the following command:
+
+git branch branch_name
+
+To delete the branch follow the following steps:
+
+1.) Move to any other branch preferably to the master branch using the follwoing command:
+    git checkout master
+    
+2.) Delete the branch by executing the following command:
+    git branch -d branch_name
