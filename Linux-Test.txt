@@ -1,0 +1,27 @@
+## QUESTIONS - ANSWERS
+
+1> what is cd command? If one types on the console cd ~user_name, what will happen?
+Ans>	cd -> change directory
+	cd ~user_name -> takes the user to the home directory of specified user
+
+2> what is “pwd”?
+Ans> pwd ->It will print the path to the working directory.
+
+3> Which command is used to change rights of a directory as well as it’s sub directories and files?
+Ans> chmod -r
+
+4> Explain it,  “LINUX have Command History”.
+Ans> "LINUX have Command History" - We can get previous commands using UP_ARROW & DOWN_ARROW in LIFO order.
+
+5> Can it be possible to change rights of a file/directory into 747? Give reason for your answer.
+Ans> Yes, becuase permissions are exclusively assigned and changed in permissions of owner, group and other have no effect on each other.
+
+
+
+
+
+
+
+
+
+
