@@ -45,3 +45,31 @@ In 2005, the relationship between the community that developed the Linux kernel 
 and the tool’s free-of-charge status was revoked.
 This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned
 while using BitKeeper.
+
+Topic 5:
+Tagging
+Like most VCSs, Git has the ability to tag specific points in history as being important. Typically people use this functionality to mark release points (v1.0, and so on). In this section, you’ll learn how to list the available tags, how to create new tags, and what the different types of tags are.
+
+Creating Tags
+Git uses two main types of tags: lightweight and annotated.
+
+Lightweight:
+A lightweight tag is very much like a branch that doesn’t change – it’s just a pointer to a specific commit.
+Example:
+$ git tag -l "v1.8.5*"
+
+
+Annotated:
+Creating an annotated tag in Git is simple. The easiest way is to specify -a when you run the tag command:
+Example:
+$ git tag -a v1.4 -m "my version 1.4"
+
+Topic 4:
+Working with remote
+Showing Your Remotes
+To see which remote servers you have configured, you can run the git remote command. It lists the shortnames of each remote handle you’ve specified. If you’ve cloned your repository, you should at least see origin – that is the default name Git gives to the server you cloned from:
+You can also specify -v, which shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote:
+
+$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
